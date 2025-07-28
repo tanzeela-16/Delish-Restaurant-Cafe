@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
-import Bottom from '../components/Bottom'
+import Bottom from "../components/Bottom";
+import GalleryPageContainer from "../components/GalleryPageContainer";
 
 export default function GalleryPage() {
   return (
@@ -11,7 +12,9 @@ export default function GalleryPage() {
         Honed={"Food Gallery"}
       />
 
-      <Bottom/>
+      <GalleryPageContainer />
+
+      <Bottom />
     </div>
   );
 }
