@@ -2,13 +2,13 @@ import React from "react";
 
 export default function GalleryPageContainer() {
   return (
-    <div className="w-full h-full max-w-7xl py-10 mx-auto ">
+    <div className=" relative   h-full max-w-7xl mx-5   py-10 md:mx-auto ">
       <div className="flex flex-col gap-y-5 justify-center items-center">
         <div className="bg-[#CB3A1A] text-center rounded-md px-4 p-1 text-white font-semibold ">
           <p className="uppercase text-sm">Food Gallery</p>
         </div>
 
-        <h1 className="text-5xl uppercase font-bold ">Food Gallery Posts</h1>
+        <h1 className=" text-2xl md:text-5xl uppercase font-bold ">Food Gallery Posts</h1>
 
         <svg
           width="2"
@@ -61,9 +61,9 @@ export default function GalleryPageContainer() {
         </svg>
       </div>
 
-      <div className="  flex  justify-center my-10">
-        <div className="grid grid-cols-3 gap-6 w-[100%] max-w-6xl">
-          <div className="aspect-square bg-[#D9D9D9] p-4     relative">
+      <div className="  flex  justify-center  mx-5 md:0  my-10 ">
+        <div className="grid grid-col-1 md:grid-cols-3 gap-6 w-[100%]   max-w-6xl">
+          <div className="aspect-square bg-[#D9D9D9] p-4    relative">
             <div className="bg-[#CB3A1AED] flex justify-center items-center w-full h-full ">
               <div className="bg-white w-12 h-12 flex justify-center items-center ">
                <img src="eye.png" alt="" srcset="" className="w-[18px] h-[15px]" />
