@@ -1,9 +1,11 @@
 import Navbar from "./components/Navbar";
+import GalleryPage from "./pages/GalleryPage";
 
 function App() {
   return (
-    <div className="bg-black min-h-screen">
-      <Navbar />
+    <div className=" min-h-screen">
+   
+      <GalleryPage />
     </div>
   );
 }
