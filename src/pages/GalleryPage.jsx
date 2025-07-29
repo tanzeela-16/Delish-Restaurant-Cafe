@@ -11,7 +11,6 @@ export default function GalleryPage() {
         Honed={"Food Gallery"}
       />
 
-      <Bottom/>
     </div>
   );
 }
