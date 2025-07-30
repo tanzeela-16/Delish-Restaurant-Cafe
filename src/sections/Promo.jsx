@@ -72,7 +72,7 @@ const Promo = () => {
         </div>
       </section>
 
-      <div className="w-full mb-16">
+      <div className="w-full mb-14">
         <img
           src="/banner_img.png"
           alt="Promo Banner"
