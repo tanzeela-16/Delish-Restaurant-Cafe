@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PopularChefsGrid() {
   return (
-    <section className="px-4 py-20 max-w-6xl mx-auto">
+    <section className="px-4 py-20 bg-[#F6F6F6] max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <button className="bg-red-600 text-white px-4 py-1 text-xs uppercase font-bold rounded-md mb-3">
           Make Reservation

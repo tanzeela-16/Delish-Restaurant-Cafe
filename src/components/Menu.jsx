@@ -13,7 +13,7 @@ const menuItems = [
 
 export default function MenuGrid() {
   return (
-    <section className="  py-20 max-w-[80rem] mx-auto  md:px-20">
+    <section className="  py-20 max-w-[80rem] mx-auto bg-[#F6F6F6]  md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center md:place-items-start gap-6">
         {menuItems.map((item, index) => (
           <div
@@ -22,7 +22,7 @@ export default function MenuGrid() {
           >
             <div className="flex items-center flex-col md:flex-row gap-4 w-full">
          
-              <div className="w-20 h-20 bg-gray-300 rounded-full flex-shrink-0" />
+              <div className="w-20 h-20 bg-[#D9D9D9] rounded-full flex-shrink-0" />
    
               <div className="flex flex-col w-full">
                 <div className="flex justify-between items-center flex-col md:flex-row  w-full">
