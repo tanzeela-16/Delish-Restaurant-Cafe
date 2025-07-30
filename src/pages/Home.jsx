@@ -4,6 +4,7 @@ import Promo from "../sections/Promo";
 import Category from "../sections/Category";
 import Schedule from "../sections/Schedule";
 import MenuSection from "../sections/MenuSection";
+import Chef from "../sections/Chefs";
 
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
       <Category />
       <Schedule />
       <MenuSection />
-
+      <Chef />
 
     </>
   );

@@ -19,7 +19,7 @@ export default function MenuSection() {
   const rightItems = menuItems.slice(half);
 
   return (
-    <section className="bg-[#f8f8f8] py-16 px-2">
+    <section className="bg-[#f8f8f8]  px-2">
       <div className="max-w-5xl mx-auto bg-[#111111] text-white py-10 rounded-md px-15">
         {/* Top section */}
         <div className="text-center mb-10">
