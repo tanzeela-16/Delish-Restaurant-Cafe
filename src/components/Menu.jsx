@@ -13,27 +13,28 @@ const menuItems = [
 
 export default function MenuGrid() {
   return (
-    <section className="  py-20 max-w-6xl mx-auto  md:px-20">
+    <section className="  py-20 max-w-[80rem] mx-auto  md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 place-items-center md:place-items-start gap-6">
         {menuItems.map((item, index) => (
           <div
             key={index}
             className="bg-[#FFFFFF] px-6 py-4 flex w-full items-center justify-between rounded-md "
           >
-            <div className="flex items-start flex-col md:flex-row gap-4 w-full">
+            <div className="flex items-center flex-col md:flex-row gap-4 w-full">
          
-              <div className="w-14 h-14 bg-gray-300 rounded-full flex-shrink-0" />
+              <div className="w-20 h-20 bg-gray-300 rounded-full flex-shrink-0" />
    
               <div className="flex flex-col w-full">
-                <div className="flex justify-between flex-col md:flex-row items-start w-full">
+                <div className="flex justify-between items-center flex-col md:flex-row  w-full">
                   <h3 className="font-semibold text-sm md:text-base whitespace-nowrap">
                     {item.name}
                   </h3>
-                  <span className="text-red-600 font-bold text-sm md:text-base ml-2 whitespace-nowrap">
+                  
+                <div className="  w-full border-b border-dotted hidden md:block border-[#CB3A1A] mx-4" />
+                  <span className="text-[#CB3A1A] font-bold text-sm md:text-base ml-2 whitespace-nowrap">
                     {item.price}
                   </span>
                 </div>
-                <div className="w-full border-b border-dotted hidden md:block border-gray-400 my-1" />
                 <p className="text-sm text-gray-500 mt-1">
                   Ricotta, goat cheese, beetroot and dateline.
                 </p>
