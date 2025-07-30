@@ -11,10 +11,8 @@ export default function GalleryPage() {
         PageDetail={"Home / Gallery Page"}
         Honed={"Food Gallery"}
       />
-
       <GalleryPageContainer />
 
-      <Bottom />
     </div>
   );
 }
