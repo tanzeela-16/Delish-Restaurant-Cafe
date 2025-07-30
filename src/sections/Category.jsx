@@ -9,7 +9,7 @@ const categories = [
 
 export default function Category() {
   return (
-    <section className="px-4 py-12 bg-white">
+    <section className="px-4 py-12 mb-14 bg-white">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
