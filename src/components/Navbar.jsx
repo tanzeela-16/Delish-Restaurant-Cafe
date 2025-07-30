@@ -40,6 +40,10 @@ function Navbar() {
       submenu: [{ name: "Latest Blogs", href: "/blog" }],
     },
     {
+      name: "Blog Details",
+      submenu: [{ name: "Details", href: "/blogdetails" }],
+    },
+    {
       name: "Contact",
       submenu: [{ name: "Contact Us", href: "/contact" }],
     },
