@@ -6,6 +6,7 @@ import Schedule from "../sections/Schedule";
 import MenuSection from "../sections/MenuSection";
 import Chef from "../sections/Chefs";
 import BlogInsights from "../sections/BlogInsights";
+import Testimonials from "../sections/Testimonials";
 
 
 function Home() {
@@ -17,7 +18,9 @@ function Home() {
       <Schedule />
       <MenuSection />
       <Chef />
+      <Testimonials />
       <BlogInsights />
+      
 
     </>
   );
