@@ -13,7 +13,7 @@ const Promo = () => {
               <img
                 src="/burger_vector.png"
                 alt="Burger"
-                className="w-24 sm:w-28 h-auto object-contain"
+                className="w-24 sm:w-28 h-auto object-contain mt-40"
               />
             </div>
 
