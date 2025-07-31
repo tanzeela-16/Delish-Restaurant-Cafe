@@ -2,10 +2,10 @@ import React from "react";
 
 export default function PopularChefsGrid() {
   return (
-    <section className="px-4 py-20 bg-white max-w-6xl mx-auto">
+    <section className="px-4 py-12 md:py-20 bg-white max-w-6xl mx-auto">
       {/* Heading */}
       <div className="text-center mb-12">
-        <button className="bg-[#CB3A1A] text-white px-4 py-1 text-xs uppercase font-bold rounded-md mb-3">
+        <button className="bg-[#CB3A1A] text-white px-4 py-1 text-xs uppercase font-bold rounded-md mb-3 inline-block">
           Make Reservation
         </button>
         <h2 className="text-2xl md:text-5xl font-bold tracking-tight uppercase">
@@ -35,7 +35,7 @@ export default function PopularChefsGrid() {
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2">
         {/* LEFT IMAGE BOX */}
-        <div className="relative bg-[#D9D9D9] h-full w-full">
+        <div className="relative bg-[#D9D9D9] h-full w-full min-h-[220px]">
           <div className="absolute top-6 left-8 bg-[#CB3A1A] text-white px-3 py-1 text-xs font-bold leading-tight text-center">
             <div className="text-2xl">09</div>
             <div className="text-sm">DEC</div>
@@ -43,9 +43,9 @@ export default function PopularChefsGrid() {
         </div>
 
         {/* RIGHT CONTENT BOX */}
-        <div className="bg-gray-100 p-10 flex flex-col gap-y-16">
+        <div className="bg-gray-100 p-6 md:p-10 flex flex-col gap-y-12">
           <div>
-            <div className="flex items-center text-sm text-gray-600 mb-4 space-x-4">
+            <div className="flex flex-col sm:flex-row sm:items-center text-sm text-gray-600 mb-4 sm:space-x-4 space-y-2 sm:space-y-0">
               <div className="flex items-center space-x-2">
                 <div className="w-7 h-7 rounded-full bg-[#D9D9D9]" />
                 <span className="font-semibold text-xs uppercase">
@@ -64,16 +64,22 @@ export default function PopularChefsGrid() {
               </div>
             </div>
 
-            <h3 className="text-lg md:text-xl font-bold mb-4 leading-snug">
+            <h3 className="text-lg md:text-xl font-bold mb-4 leading-snug break-words">
               How restaurants foster connections and create memories
             </h3>
           </div>
 
           {/* CUSTOM READ MORE BUTTON */}
-          <div className="border-2 border-[#CB3A1A] text-[#CB3A1A] flex items-center gap-x-2 px-5 py-2 text-sm font-medium w-max transition-all hover:bg-[#CB3A1A] hover:text-white group">
+          <div className="border-2 border-[#CB3A1A] text-[#CB3A1A] flex flex-wrap items-center gap-x-2 px-5 py-2 text-sm font-medium w-max transition-all hover:bg-[#CB3A1A] hover:text-white group">
             <button className="">Read More</button>
             <svg width="49" height="1" viewBox="0 0 49 1" fill="none">
-              <line y1="0.5" x2="49" y2="0.5" stroke="#CB3A1A" className="group-hover:stroke-white" />
+              <line
+                y1="0.5"
+                x2="49"
+                y2="0.5"
+                stroke="#CB3A1A"
+                className="group-hover:stroke-white"
+              />
             </svg>
             <svg
               width="17"
@@ -95,9 +101,9 @@ export default function PopularChefsGrid() {
         </div>
 
         {/* 2nd content box (same as above) */}
-        <div className="bg-gray-100 p-10 flex flex-col gap-y-16">
+        <div className="bg-gray-100 p-6 md:p-10 flex flex-col gap-y-12">
           <div>
-            <div className="flex items-center text-sm text-gray-600 mb-3 space-x-4">
+            <div className="flex flex-col sm:flex-row sm:items-center text-sm text-gray-600 mb-3 sm:space-x-4 space-y-2 sm:space-y-0">
               <div className="flex items-center space-x-2">
                 <div className="w-7 h-7 rounded-full bg-[#D9D9D9]" />
                 <span className="font-semibold text-xs uppercase">
@@ -116,16 +122,22 @@ export default function PopularChefsGrid() {
               </div>
             </div>
 
-            <h3 className="text-lg md:text-xl font-bold mb-4 leading-snug">
+            <h3 className="text-lg md:text-xl font-bold mb-4 leading-snug break-words">
               Discovering Affordable Gourmet Experiences in Your City
             </h3>
           </div>
 
           {/* Reuse Read More Button */}
-          <div className="border-2 border-[#CB3A1A] text-[#CB3A1A] flex items-center gap-x-2 px-5 py-2 text-sm font-medium w-max transition-all hover:bg-[#CB3A1A] hover:text-white group">
+          <div className="border-2 border-[#CB3A1A] text-[#CB3A1A] flex flex-wrap items-center gap-x-2 px-5 py-2 text-sm font-medium w-max transition-all hover:bg-[#CB3A1A] hover:text-white group">
             <button className="">Read More</button>
             <svg width="49" height="1" viewBox="0 0 49 1" fill="none">
-              <line y1="0.5" x2="49" y2="0.5" stroke="#CB3A1A" className="group-hover:stroke-white" />
+              <line
+                y1="0.5"
+                x2="49"
+                y2="0.5"
+                stroke="#CB3A1A"
+                className="group-hover:stroke-white"
+              />
             </svg>
             <svg
               width="17"
@@ -147,7 +159,7 @@ export default function PopularChefsGrid() {
         </div>
 
         {/* Last image box */}
-        <div className="relative bg-[#D9D9D9] h-full w-full">
+        <div className="relative bg-[#D9D9D9] h-full w-full min-h-[220px]">
           <div className="absolute top-6 left-8 bg-[#CB3A1A] text-white px-3 py-1 text-xs font-bold leading-tight text-center">
             <div className="text-2xl">09</div>
             <div className="text-sm">DEC</div>

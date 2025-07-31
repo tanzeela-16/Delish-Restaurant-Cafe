@@ -9,7 +9,7 @@ const chefs = [
 
 const Chef = () => {
   return (
-    <div className="py-30 px-4 md:px-12 bg-white text-center ">
+    <div className="py-20 px-4 md:px-12 bg-white text-center ">
       {/* Title */}
       <button className="bg-[#CB3A1A] text-white text-xs font-bold uppercase px-4 py-1 rounded mb-3">
         TEAM MEMBERS
