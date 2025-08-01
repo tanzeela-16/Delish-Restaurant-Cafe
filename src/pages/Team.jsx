@@ -24,7 +24,7 @@ const TeamCard = ({ name, role, imageUrl }) => {
       </div>
       <div className="text-center">
         <div className="text-sm font-bold text-black tracking-wide">{name}</div>
-        <div className="text-xs text-gray-500 uppercase mt-1">{role}</div>
+        <div className="text-xs text-gray-500 uppercase mt-2">{role}</div>
       </div>
     </div>
   );
