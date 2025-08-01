@@ -1,10 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Header from '../components/Header';
 
 const Blog = () => {
   const navigate = useNavigate();
 
   return (
+    <div> 
+      <Header
+              PageName={"Latest News"}
+              PageDetail={"Home / Latest News"}
+              Honed={"News Insights"}
+            />
     <div className="p-6 max-w-5xl mx-auto font-sans text-gray-800">
       {/* Blog Post 1 */}
       <article className="mb-10">
@@ -41,6 +48,7 @@ const Blog = () => {
         READ DETAILS <span className="ml-1">❤️</span>
       </button>
 
+    </div>
     </div>
   );
 };

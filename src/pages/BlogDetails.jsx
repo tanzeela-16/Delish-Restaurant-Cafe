@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { FaUser, FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import blogData from "../data/blogData";
+import Header from "../components/Header";
 
 const BlogDetails = () => {
   const { id } = useParams();
@@ -30,12 +31,11 @@ const BlogDetails = () => {
 
   return (
     <div className="font-sans text-gray-800">
-      {/* Header */}
-      <div className="w-full bg-[#2f2f2f] text-center py-16 px-4">
-        <h2 className="text-4xl font-bold tracking-wider mb-2 text-white">
-          Blog Details
-        </h2>
-      </div>
+      <Header
+                    PageName={"Blog Details"}
+                    PageDetail={"Home / Blog Details"}
+                    Honed={"News Insights"}
+                  />
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-8">

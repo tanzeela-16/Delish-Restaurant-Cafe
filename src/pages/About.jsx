@@ -12,14 +12,11 @@ const About = () => {
       <main className="flex-1 bg-[#F1F1F1] text-[#111]"
       
       >
-        {/* Hero Section (Dark Grey) */}
-        <section className="bg-[#2E2E2E] text-white text-center py-20">
-          <h1 className="text-4xl font-semibold">ABOUT US</h1>
-          <p className="text-sm mt-2 opacity-80">HOME / ABOUT US</p>
-          <h2 className="mt-10 text-6xl font-bold tracking-wide opacity-5 select-none">
-            ABOUT US 
-          </h2>
-        </section>
+        <Header
+                PageName={"About US"}
+                PageDetail={"Home / About Us"}
+                Honed={"About Us"}
+              />
 
       {/* About Top Section */}
 <section className="relative py-16 px-4 bg-[#FFFFFF]  flex justify-center">

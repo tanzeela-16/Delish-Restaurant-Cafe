@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "../components/Header";
 
 const Reservation = () => {
   const [formData, setFormData] = useState({
@@ -24,15 +25,13 @@ const Reservation = () => {
   };
 
   return (
+    <div>
+      <Header
+              PageName={"Book A Table"}
+              PageDetail={"Home / Book a Table"}
+              Honed={"Reservation"}
+            />
     <div className="bg-[#111111] text-white">
-      {/* Header Section */}
-      <div className="bg-[#2f2f2f] text-center py-16 px-4">
-        <h2 className="text-4xl font-bold tracking-wider mb-2">BOOK A TABLE</h2>
-        <p className="text-sm uppercase text-gray-400"> Book a Table</p>
-        <h1 className="text-[6rem] font-bold text-[#2f2f2f] tracking-wide -mt-6 select-none">
-          RESERVATION
-        </h1>
-      </div>
 
       {/* Form Section */}
       <div className="bg-[#111111] px-4 md:px-20 py-12">
@@ -129,15 +128,7 @@ const Reservation = () => {
         </div>
       </div>
 
-      {/* Footer-style Extra Section */}
-      <div className="bg-[#f4f4f4] text-black py-16 px-4 text-center">
-        <h3 className="text-xl md:text-2xl font-semibold mb-4">
-          Need a table on coffee house?
-        </h3>
-        <button className="bg-black text-white px-6 py-3 hover:bg-red-600 transition">
-          Book a table
-        </button>
-      </div>
+    </div>
     </div>
   );
 };
