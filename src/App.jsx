@@ -5,6 +5,7 @@ import GalleryPage from "./pages/GalleryPage";
 import Menu from "./pages/FoodMenuPage";
 import ShopPage from "./pages/ShopPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
+import Team from "./pages/Team";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="Menu" element={<Menu />} />
           <Route path="shop" element={<ShopPage />} />
           <Route path="product/:productId" element={<ProductDetailPage />} />
+          <Route path="team" element={<Team />} />
         </Route>
       </Routes>
     </Router>
