@@ -1,5 +1,6 @@
 // Team.jsx
 import React from "react";
+import { Link } from "react-router-dom";
 import teamMembers from "../data/TeamData";
 import Header from "../components/Header";
 
@@ -41,14 +42,15 @@ const Team = () => {
         Honed={"TEAM EXPERT"}
       />
       <div className="max-w-6xl mx-auto py-25 px-4 sm:px-8 lg:px-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 justify-item-center">
           {teamMembers.map((member, idx) => (
-            <TeamCard
-              key={idx}
-              name={member.name}
-              role={member.role}
-              imageUrl={member.imageUrl}
-            />
+            <Link to={`/team/${member.id}`} key={idx} className="no-underline">
+              <TeamCard
+                name={member.name}
+                role={member.role}
+                imageUrl={member.imageUrl}
+              />
+            </Link>
           ))}
         </div>
       </div>
