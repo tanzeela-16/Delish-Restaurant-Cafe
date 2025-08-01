@@ -39,6 +39,7 @@ function Navbar() {
       name: "Blog",
       submenu: [{ name: "Latest Blogs", href: "/blog" }],
     },
+
     {
       name: "Contact",
       submenu: [{ name: "Contact Us", href: "/contact" }],
