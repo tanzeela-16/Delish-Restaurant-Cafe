@@ -42,7 +42,7 @@ const TeamDetails = () => {
         Honed={"TEAM EXPERT"}
       />
 
-      <div className="min-h-screen py-10 px-4 bg-white">
+      <div className="min-h-screen py-25 px-4 bg-white">
         <div className="max-w-5xl mx-auto bg-[#f6f6f6] p-6 sm:p-10 md:p-16 lg:p-20 flex flex-col lg:flex-row gap-10">
           {/* Left Content */}
           <div className="flex-1 flex flex-col justify-center">
